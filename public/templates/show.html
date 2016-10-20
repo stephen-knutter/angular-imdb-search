@@ -1,0 +1,74 @@
+<div class="row">
+  <div class="container">
+    <h2>{{ show.Title }}</h2>
+    <div class="six columns">
+      <img ng-src="{{show.Poster}}" alt="" />
+    </div>
+    <div class="six columns">
+
+      <div class="starring">
+        <span><strong>Starring: </strong></span>
+        <span>{{ show.Actors }}</span>
+      </div>
+      <p class="plot">
+        {{ show.Plot }}
+      </p>
+      <h4 class="descrip-title">Additional Details</h4>
+
+      <div class="awards descrip-wrap">
+        <h5 class="descrip-title">Awards</h5>
+        <span class="descrip-text">{{ show.Awards }}</span>
+      </div>
+
+      <div class="country descrip-wrap">
+        <h5 class="descrip-title">Country</h5>
+        <span class="descrip-text">{{ show.Country }}</span>
+      </div>
+
+      <div class="genre descrip-wrap">
+        <h5 class="descrip-title">Genre</h5>
+        <span class="descrip-text">{{ show.Genre }}</span>
+      </div>
+
+      <div class="language descrip-wrap">
+        <h5 class="descrip-title">Language</h5>
+        <span class="descrip-text">{{ show.Language }}</span>
+      </div>
+
+      <div class="metascore descrip-wrap">
+        <h5 class="descrip-title">Metascore</h5>
+        <span class="descrip-text">{{ show.Metascore }}</span>
+      </div>
+
+      <div class="rated descrip-wrap">
+        <h5 class="descrip-title">Rated</h5>
+        <span class="descrip-text">{{ show.Rated }}</span>
+      </div>
+
+      <div class="release descrip-wrap">
+        <h5 class="descrip-title">Release</h5>
+        <span class="descrip-text">{{ show.Release }}</span>
+      </div>
+
+      <div class="runtime descrip-wrap">
+        <h5 class="descrip-title">Runtime</h5>
+        <span class="descrip-text">{{ show.Runtime }}</span>
+      </div>
+
+      <div class="title descrip-wrap">
+        <h5 class="descrip-title">Title</h5>
+        <span class="descrip-text">{{ show.Title }}</span>
+      </div>
+
+      <div class="writer descrip-wrap">
+        <h5 class="descrip-title">Writer</h5>
+        <span class="descrip-text">{{ show.Writer }}</span>
+      </div>
+
+      <div class="year descrip-wrap">
+        <h5 class="descrip-title">Year</h5>
+        <span class="descrip-text">{{ show.Year }}</span>
+      </div>
+    </div>
+  </div>
+</div>

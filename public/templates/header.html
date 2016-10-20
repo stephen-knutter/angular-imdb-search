@@ -1,0 +1,9 @@
+<header ng-controller="mainCtrl">
+  <h2 class="head-text">Angular OMDb API Search</h2>
+  <div class="row search-wrap">
+    <form ng-submit="fetchMovie()" action="/">
+      <input type="text" class="search-input" ng-model="movie.title" name="search" autocomplete="off" placeholder="Enter movie title..." />
+      <input type="submit" class="button-primary" name="submit" value="Find" />
+    </form>
+  </div>
+</header>

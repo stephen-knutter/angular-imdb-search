@@ -1,0 +1,22 @@
+<header>
+  <h2 class="head-text">Angular OMDb API Search</h2>
+  <div class="row search-wrap">
+    <form ng-submit="fetchMovie()">
+      <input type="text" class="search-input" ng-model="movie.title" name="search" autocomplete="off" placeholder="Enter movie title..." />
+      <input type="submit" class="button-primary" name="submit" value="Find" />
+    </form>
+  </div>
+</header>
+
+<div class="container">
+  <a ng-href="/show/{{movie.imdbID}}" ng-repeat="movie in movies" alt="{{movie.title}}">
+    <div  class="six columns card">
+      <div class="movie-title">
+        <strong class="movie-title">{{ movie.Title }}</strong>
+      </div>
+      <div class="movie-year">
+        <span class="movie-year">YEAR: {{ movie.Year }}</span>
+      </div>
+    </div>
+  </a>
+</div>

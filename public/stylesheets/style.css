@@ -1,0 +1,76 @@
+.head-text {
+  text-align: center;
+  color: #666;
+}
+
+.search-wrap {
+  padding: 0 10px;
+}
+
+.starring {
+  line-height: 0;
+  margin-bottom: 10px;
+}
+
+.plot {
+  margin-top: 15px;
+}
+
+.descrip-text {
+  color: #666;
+}
+
+input.search-input, input.search-input:focus {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 30px 20px 30px 60px;
+  font-size: 35px;
+  border-radius: 0;
+  position: relative;
+  display: block;
+  color: #929292;
+  background: url('/images/search.png') 0 55% no-repeat;
+}
+
+input.search-input:before {
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '\f002';
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #d7d9dd #d1d3d8 #c3c4c9;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.card:nth-child(odd) {
+  margin-right: 5px;
+}
+
+.movie-title {
+  color: #1EAEDB;
+  margin: 2px 0;
+}
+
+.movie-year {
+  color: #1EAEDB;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.descrip-title {
+  margin-bottom: 0;
+}
+
+.descrip-wrap {
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
